@@ -11,16 +11,19 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Pharmamap
+  cd Pharmamap-SIH-project
 ```
-
+ ```bash
+cd Frontend
+```
 Install dependencies
 
 ```bash
   npm install
+
 ```
 
-Start the server
+Start the frontend
 
 ```bash
   npm run start
