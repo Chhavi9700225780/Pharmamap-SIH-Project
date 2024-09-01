@@ -33,7 +33,7 @@ export const DoctorLogin = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.LOGIN_DOCTOR_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/doctors/login",
+      "http://zany-gray-clam-gear.cyclic.app/doctors/login",
       data
     );
     console.log(res.data);
@@ -61,7 +61,7 @@ export const AdminLogin = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.LOGIN_ADMIN_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/admin/login",
+      "http://zany-gray-clam-gear.cyclic.app/admin/login",
       data
     );
     console.log(res.data);
@@ -89,7 +89,7 @@ export const DoctorRegister = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.REGISTER_DOCTOR_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/doctors/register",
+      "http://zany-gray-clam-gear.cyclic.app/doctors/register",
       data
     );
     // console.log(res);
@@ -118,7 +118,7 @@ export const NurseRegister = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.REGISTER_NURSE_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/nurses/register",
+      "http://zany-gray-clam-gear.cyclic.app/nurses/register",
       data
     );
     // console.log(res);
@@ -147,7 +147,7 @@ export const AdminRegister = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.REGISTER_ADMIN_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/admin/register",
+      "http://zany-gray-clam-gear.cyclic.app/admin/register",
       data
     );
     // console.log(res);
@@ -176,7 +176,7 @@ export const AmbulanceRegister = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.REGISTER_AMBULANCE_REQUEST });
     const res = await axios.post(
-      "https://zany-gray-clam-gear.cyclic.app/ambulances/add",
+      "http://zany-gray-clam-gear.cyclic.app/ambulances/add",
       data
     );
     console.log(res);
