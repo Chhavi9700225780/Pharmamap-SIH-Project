@@ -68,12 +68,9 @@ Hospital management system is a website which can control all the management rel
 
 ## 🔗 Links
 
-Dashboard - https://hm-system.netlify.app/
-
-User Side - https://hms-user-side.netlify.app/
-
-Server - https://github.com/piyush-agrawal6/HMS-Backend
-
+Dashboard -
+User Side - 
+Server - 
 ## Screenshots
 
 1.Dashboard
