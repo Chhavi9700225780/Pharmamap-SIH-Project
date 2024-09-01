@@ -5,7 +5,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Chhavi9700225780/SIH-Project
+  https://github.com/Chhavi9700225780/Pharmamap-SIH-Project.git
 ```
 
 Go to the project directory
